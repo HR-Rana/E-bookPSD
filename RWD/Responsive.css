@@ -1,0 +1,167 @@
+
+
+
+@media (max-width: 768px){
+	
+	.menu{
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: rgba(0, 0, 0, .7);
+		height: 100vh;
+		width: 100wh;
+		width: 100%;
+		z-index: 1111111111;
+		position: fixed;
+
+	}
+	.menu ul{
+		
+		display: block;
+		background-color:#2a93d8 ;
+		padding: 50px 25px;
+		text-align: center;
+		height: 70%;
+		border-radius: 30px 0px 0px 30px;
+	}
+	.menu ul li{
+		width: 100%;
+		margin: 25px 0;
+		padding-bottom: 5px;
+		border-bottom: 1px solid black;
+	}
+	.menu ul li a:hover{
+		padding-bottom: 5px;
+		border-bottom: 5px solid gray;
+	}
+	.time-out{
+		display: block;
+		color: white;
+		font-size: 30px;
+		position: absolute;
+		top: 50px;
+		left: 30px;
+	}
+	.bar{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 30px;
+	display: block;
+	}
+
+	.banner-content{
+	width: 100%;
+	margin:20px 0;
+	background-color: rgba(0, 0, 0, .2);
+	transform: translate(0%, 10%);
+	}
+	.Purchase-area{
+	width: 50%;
+	}
+
+
+	.read-area .flex-box{
+		display: block;
+	}
+	.reading-img{
+	width: 100%
+	}
+	.read-text{
+	width: 100%;
+	margin: 50px 0;
+	}
+	.Features-heading{
+	width: 100%;
+	margin: 25px auto;
+	}
+
+	.Download-area .flex-box{
+		display: block;
+	}
+	.title p{
+	width:100%;
+	}
+	.title-box{
+	width: 80%;
+	margin-top: 50px;
+	}
+	.fill-area{
+	width: 100%;
+	
+	}
+	.review-area{
+	width: 100%;
+	margin-top: 40px;
+	}
+	.author-box{
+		width: 50%;
+	}
+	
+
+
+
+}
+
+
+
+@media (max-width: 400px){
+	.logo{
+		width: 70%;
+	}
+	.logo img{
+		width: 100%;
+	}
+	.bar{
+	top: 10px;
+	right: 30px;
+	}
+
+
+	.profile-area{
+	width: 20%;
+	margin: 50px 0;
+	}
+	.author-profile img{
+	width: 120px;
+	height: 100px;
+	padding: 5px;
+	}
+	.author-text-area{
+	width: 75%;
+	}
+	.author-box{
+	width: 50%;
+	}
+	.counts{
+	width:20%;
+	}
+	.count h3{
+	font-size: 18px;
+	font-weight: 600;
+	}
+	.count p{
+	font-size: 14px;
+	}
+
+
+
+
+
+	.footer-box{
+		display: block;
+	}
+
+	.left-logo{
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.footer-right{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+	}
+}
