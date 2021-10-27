@@ -3,28 +3,17 @@
 
 
 
-font: Roboto Regular
-  Roboto bold.
-
-
-
-all features heading Roboto medium,
-  Roboto medium, icon heading,
-
-
-download : Roboto bold,
-
-open sans light   small text.
-
-pricing: Roboto medium
-
 
 .top-lavel .flex-box{
-	padding: 20px 0;
+	padding: 10px 0;
 	overflow: hidden;
 }
 .logo{
 	padding: 20px 0;
+}
+
+.menu2{
+	display: none;
 }
 .menu{
 	width: 90%;
@@ -42,6 +31,25 @@ pricing: Roboto medium
 	color: #2a93d8 ;
 }
 .menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto';
+	font-weight: 600;
+	transition: .5s;
+}
+
+/*///////          short menu   //////////*/
+.menu2 ul{
+	width: 60%;
+	float: right;
+	overflow: hidden;
+	margin: 25px 0;
+	justify-content: space-between;
+}
+.menu2 ul li a:hover{
+	color: #2a93d8 ;
+}
+.menu2 ul li a{
 	text-decoration: none;
 	color: black;
 	font-family: 'Roboto';
@@ -144,7 +152,7 @@ img{
 .buy-area{}
 .button{
 	width:40%;
-	
+	margin: 0 auto;
 }
 .buy{
 	width:100%;
